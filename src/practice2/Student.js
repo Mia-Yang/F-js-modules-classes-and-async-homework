@@ -1,5 +1,6 @@
 import { Person } from "./Person";
 
+// TODO feedback: 推荐用export default 导出class
 export class Student extends Person {
   constructor(name, className) {
     super(name);
